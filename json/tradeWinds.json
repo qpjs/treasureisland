@@ -1,0 +1,166 @@
+[
+	{
+		"Nodes": [
+			{
+				"controlPointsDistance": 70000,
+				"rotation": -274.8645,
+				"strength": 1,
+				"width": 1000,
+				"worldX": 529629.938,
+				"worldY": 5071484.5
+			},
+			{
+				"controlPointsDistance": 70000,
+				"rotation": 0,
+				"strength": 1,
+				"width": 1000,
+				"worldX": 2141630.75,
+				"worldY": 5053632.5
+			},
+			{
+				"controlPointsDistance": 70000,
+				"rotation": 0,
+				"strength": 1,
+				"width": 1000,
+				"worldX": 3336447,
+				"worldY": 4925706
+			},
+			{
+				"controlPointsDistance": 207062.016,
+				"rotation": -71.03665,
+				"strength": 1,
+				"width": 1000,
+				"worldX": 4917336,
+				"worldY": 4974300
+			},
+			{
+				"controlPointsDistance": 186819.4,
+				"rotation": -83.0107346,
+				"strength": 1,
+				"width": 1000,
+				"worldX": 4878153.5,
+				"worldY": 2715336.25
+			},
+			{
+				"controlPointsDistance": 233833.031,
+				"rotation": -151.79361,
+				"strength": 1,
+				"width": 1000,
+				"worldX": 5002559.5,
+				"worldY": 949408.938
+			},
+			{
+				"controlPointsDistance": 70000,
+				"rotation": -172.532257,
+				"strength": 1,
+				"width": 1000,
+				"worldX": 3871873.5,
+				"worldY": 891334.438
+			},
+			{
+				"controlPointsDistance": 139334.281,
+				"rotation": 134.819275,
+				"strength": 1,
+				"width": 1000,
+				"worldX": 693195.3,
+				"worldY": 867630.438
+			},
+			{
+				"controlPointsDistance": 87394.02,
+				"rotation": 41.8201675,
+				"strength": 1,
+				"width": 1000,
+				"worldX": 396301.438,
+				"worldY": 2674445.75
+			},
+			{
+				"controlPointsDistance": 97281.71,
+				"rotation": -263.991,
+				"strength": 1,
+				"width": 1000,
+				"worldX": 786521.4,
+				"worldY": 2923631
+			},
+			{
+				"controlPointsDistance": 85655.78,
+				"rotation": -255.37912,
+				"strength": 1,
+				"width": 1000,
+				"worldX": 818075.7,
+				"worldY": 4342447
+			},
+			{
+				"controlPointsDistance": 70243.55,
+				"rotation": -237.994614,
+				"strength": 1,
+				"width": 1000,
+				"worldX": 556519.25,
+				"worldY": 5023409.5
+			}
+		],
+		"PathId": 1,
+		"PathName": "South RH",
+		"StartInterpolatingOceanColorAtPercentage": 0.25,
+		"isLooping": false,
+		"isLoopingAroundWorld": false,
+		"reverseDir": false
+	},
+	{
+		"Nodes": [
+			{
+				"controlPointsDistance": 79734.65,
+				"rotation": 445.496643,
+				"strength": 1,
+				"width": 1000,
+				"worldX": 4068595,
+				"worldY": 3362051.75
+			},
+			{
+				"controlPointsDistance": 70000,
+				"rotation": -220.830978,
+				"strength": 1,
+				"width": 1000,
+				"worldX": 4010668,
+				"worldY": 4024891.75
+			},
+			{
+				"controlPointsDistance": 167050.219,
+				"rotation": -126.567429,
+				"strength": 1,
+				"width": 1000,
+				"worldX": 1567926.75,
+				"worldY": 4069769
+			},
+			{
+				"controlPointsDistance": 79260.82,
+				"rotation": -16.699234,
+				"strength": 1,
+				"width": 1000,
+				"worldX": 1489667.75,
+				"worldY": 1467020.88
+			},
+			{
+				"controlPointsDistance": 78596.1641,
+				"rotation": 39.4724579,
+				"strength": 1,
+				"width": 1000,
+				"worldX": 4046687.5,
+				"worldY": 1475869.38
+			},
+			{
+				"controlPointsDistance": 121930.2,
+				"rotation": -261.52887,
+				"strength": 1,
+				"width": 1000,
+				"worldX": 4073641,
+				"worldY": 3457183.5
+			}
+		],
+		"PathId": 2,
+		"PathName": "",
+		"StartInterpolatingOceanColorAtPercentage": 0.25,
+		"isLooping": false,
+		"isLoopingAroundWorld": false,
+		"reverseDir": false
+	}
+]
