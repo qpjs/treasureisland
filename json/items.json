@@ -2232,17 +2232,6 @@
         },
         "Name": "Conifer Green Coloring"
     },
-    "Conrol point gun": {
-        "ClassName": "Structure_ControlpointGun_C",
-        "Icon": "Item_Campfire_Icon",
-        "Ingredients": {
-            "Flint": 1.0,
-            "Stone": 6.0,
-            "Thatch": 8.0,
-            "Wood": 3.0
-        },
-        "Name": "Conrol point gun"
-    },
     "Cooked Fish": {
         "ClassName": "Consumable_CookedFish_C",
         "Icon": "Item_CookedFishMeat_Icon",
@@ -2486,10 +2475,10 @@
         }
     },
     "Crew Member": {
-        "ClassName": "Primaltem_RecruitCityCrew_C",
+        "ClassName": "Primaltem_RecruitCrew_C",
         "Icon": "NPC_Recruit_Icon",
         "Ingredients": {
-            "Gold Coin": 10000.0
+            "Gold Coin": 5.0
         },
         "Name": "Crew Member"
     },
@@ -9290,6 +9279,16 @@
             "Wood": 3000.0
         },
         "Name": "Ramming Galley"
+    },
+    "Ramshackle Sloop": {
+        "ClassName": "Ship_Sloop_FromNPC_C",
+        "Icon": "Item_SloopHull_Icon",
+        "Ingredients": {
+            "Fibers": 225.0,
+            "Hide": 75.0,
+            "Wood": 250.0
+        },
+        "Name": "Ramshackle Sloop"
     },
     "Raptor Egg": {
         "ClassName": "Consumable_Egg_Raptor_C",

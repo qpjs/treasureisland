@@ -1,5 +1,117 @@
 {
     "Structures": {
+        "CommoditySellerNPC_Freeport_BP_2": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 10.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": false,
+            "ForcePlacingOnGround": true,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": false,
+            "IsFoundation": false,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
+        "CommoditySellerNPC_Freeport_BP_941": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 10.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": false,
+            "ForcePlacingOnGround": true,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": false,
+            "IsFoundation": false,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
+        "CosmeticSellerNPC_BP_122": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 10.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": false,
+            "ForcePlacingOnGround": true,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": false,
+            "IsFoundation": false,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
+        "CosmeticSellerNPC_BP_2": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 10.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": false,
+            "ForcePlacingOnGround": true,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": false,
+            "IsFoundation": false,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
+        "CrewRecruiterNPC_BP_243": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 10.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": false,
+            "ForcePlacingOnGround": true,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": false,
+            "IsFoundation": false,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
+        "CrewRecruiterNPC_BP_4": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 10.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": false,
+            "ForcePlacingOnGround": true,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": false,
+            "IsFoundation": false,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
+        "CrewRecruiterNPC_BP_C_18": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 10.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": false,
+            "ForcePlacingOnGround": true,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": false,
+            "IsFoundation": false,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
         "Default__AirConditioner_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
             "DecayTimeDays": 10.0,
@@ -752,6 +864,22 @@
             "TakeAnythingAsGround": false,
             "UseFenceFoundation": false
         },
+        "Default__CommoditySellerNPC_Freeport_BP_C": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 10.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": false,
+            "ForcePlacingOnGround": true,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": false,
+            "IsFoundation": false,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
         "Default__CommoditySellerNPC_MerchantShip_BP_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
             "DecayTimeDays": 10.0,
@@ -784,7 +912,39 @@
             "TakeAnythingAsGround": false,
             "UseFenceFoundation": false
         },
+        "Default__CosmeticSellerNPC_BP_C": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 10.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": false,
+            "ForcePlacingOnGround": true,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": false,
+            "IsFoundation": false,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
         "Default__CosmeticSellerNPC_MerchantShip_BP_C": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 10.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": false,
+            "ForcePlacingOnGround": true,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": false,
+            "IsFoundation": false,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
+        "Default__CrewRecruiterNPC_BP_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
             "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
@@ -1200,6 +1360,22 @@
             "TakeAnythingAsGround": false,
             "UseFenceFoundation": false
         },
+        "Default__FerrymanNPC_BP_C": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 10.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": false,
+            "ForcePlacingOnGround": true,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": false,
+            "IsFoundation": false,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
         "Default__FloatingOperatingBase_BP_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 8800.0,
             "DecayTimeDays": 0.0,
@@ -1402,6 +1578,22 @@
             "IsFenceFoundation": false,
             "IsFloor": false,
             "IsFoundation": true,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
+        "Default__HolidaySellerNPC_BP_C": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 10.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": false,
+            "ForcePlacingOnGround": true,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": false,
+            "IsFoundation": false,
             "IsWall": false,
             "MaximumFoundationSupport2DBuildDistance": 650.0,
             "PreventPlacingNearEnemyRadius": 2000.0,
@@ -3440,6 +3632,22 @@
             "TakeAnythingAsGround": false,
             "UseFenceFoundation": false
         },
+        "Default__SeedVendorNPC_BP_C": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 10.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": false,
+            "ForcePlacingOnGround": true,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": false,
+            "IsFoundation": false,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
         "Default__ShipBottleStation_BP_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
             "DecayTimeDays": 10.0,
@@ -4161,6 +4369,22 @@
             "UseFenceFoundation": false
         },
         "Default__ShipyardLarge_BP_C": {
+            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
+            "DecayTimeDays": 10.0,
+            "DecayTimeNoFlagDays": 0.0833333358168602,
+            "ForceGroundForFoundation": true,
+            "ForcePlacingOnGround": false,
+            "FoundationRequiresGroundTrace": false,
+            "IsFenceFoundation": false,
+            "IsFloor": true,
+            "IsFoundation": true,
+            "IsWall": false,
+            "MaximumFoundationSupport2DBuildDistance": 650.0,
+            "PreventPlacingNearEnemyRadius": 2000.0,
+            "TakeAnythingAsGround": false,
+            "UseFenceFoundation": false
+        },
+        "Default__ShipyardNPC_BP_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
             "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
@@ -5027,22 +5251,6 @@
         "Default__StructureBP_ColorBox_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
             "DecayTimeDays": 40.0,
-            "DecayTimeNoFlagDays": 0.0833333358168602,
-            "ForceGroundForFoundation": false,
-            "ForcePlacingOnGround": true,
-            "FoundationRequiresGroundTrace": false,
-            "IsFenceFoundation": false,
-            "IsFloor": false,
-            "IsFoundation": false,
-            "IsWall": false,
-            "MaximumFoundationSupport2DBuildDistance": 650.0,
-            "PreventPlacingNearEnemyRadius": 2000.0,
-            "TakeAnythingAsGround": false,
-            "UseFenceFoundation": false
-        },
-        "Default__StructureBP_ControlPointGun_C": {
-            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
             "ForceGroundForFoundation": false,
             "ForcePlacingOnGround": true,
@@ -7411,22 +7619,6 @@
         "Default__StructureBP_Lighthouse_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
             "DecayTimeDays": 10.0,
-            "DecayTimeNoFlagDays": 0.0833333358168602,
-            "ForceGroundForFoundation": false,
-            "ForcePlacingOnGround": true,
-            "FoundationRequiresGroundTrace": false,
-            "IsFenceFoundation": false,
-            "IsFloor": false,
-            "IsFoundation": false,
-            "IsWall": false,
-            "MaximumFoundationSupport2DBuildDistance": 650.0,
-            "PreventPlacingNearEnemyRadius": 7000.0,
-            "TakeAnythingAsGround": false,
-            "UseFenceFoundation": false
-        },
-        "Default__StructureBP_Lighthouse_ControlPoint_C": {
-            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 5.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
             "ForceGroundForFoundation": false,
             "ForcePlacingOnGround": true,
@@ -10573,22 +10765,6 @@
             "IsWall": false,
             "MaximumFoundationSupport2DBuildDistance": 800.0,
             "PreventPlacingNearEnemyRadius": 14000.0,
-            "TakeAnythingAsGround": false,
-            "UseFenceFoundation": false
-        },
-        "Default__StructureBP_Wall_Large_Stone_Control_Point_C": {
-            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 10.0,
-            "DecayTimeNoFlagDays": 0.0833333358168602,
-            "ForceGroundForFoundation": false,
-            "ForcePlacingOnGround": true,
-            "FoundationRequiresGroundTrace": false,
-            "IsFenceFoundation": false,
-            "IsFloor": false,
-            "IsFoundation": false,
-            "IsWall": false,
-            "MaximumFoundationSupport2DBuildDistance": 650.0,
-            "PreventPlacingNearEnemyRadius": 2000.0,
             "TakeAnythingAsGround": false,
             "UseFenceFoundation": false
         },
@@ -13856,22 +14032,6 @@
             "TakeAnythingAsGround": false,
             "UseFenceFoundation": true
         },
-        "Default__Wall_PlaceHolder_Control_Point_C": {
-            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 10.0,
-            "DecayTimeNoFlagDays": 0.0833333358168602,
-            "ForceGroundForFoundation": false,
-            "ForcePlacingOnGround": true,
-            "FoundationRequiresGroundTrace": false,
-            "IsFenceFoundation": false,
-            "IsFloor": false,
-            "IsFoundation": false,
-            "IsWall": false,
-            "MaximumFoundationSupport2DBuildDistance": 650.0,
-            "PreventPlacingNearEnemyRadius": 2000.0,
-            "TakeAnythingAsGround": false,
-            "UseFenceFoundation": false
-        },
         "Default__WaterBarrel_Base_C": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
             "DecayTimeDays": 10.0,
@@ -14000,23 +14160,7 @@
             "TakeAnythingAsGround": false,
             "UseFenceFoundation": false
         },
-        "StructureBP_Lighthouse_ControlPoint_C_594": {
-            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 5.0,
-            "DecayTimeNoFlagDays": 0.0833333358168602,
-            "ForceGroundForFoundation": false,
-            "ForcePlacingOnGround": true,
-            "FoundationRequiresGroundTrace": false,
-            "IsFenceFoundation": false,
-            "IsFloor": false,
-            "IsFoundation": false,
-            "IsWall": false,
-            "MaximumFoundationSupport2DBuildDistance": 650.0,
-            "PreventPlacingNearEnemyRadius": 7000.0,
-            "TakeAnythingAsGround": false,
-            "UseFenceFoundation": false
-        },
-        "Wall_PlaceHolder_Control_Point_C_30049": {
+        "FerrymanNPC_BP": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
             "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
@@ -14032,7 +14176,7 @@
             "TakeAnythingAsGround": false,
             "UseFenceFoundation": false
         },
-        "Wall_PlaceHolder_Control_Point_C_31831": {
+        "FerrymanNPC_BP_23": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
             "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
@@ -14048,7 +14192,7 @@
             "TakeAnythingAsGround": false,
             "UseFenceFoundation": false
         },
-        "Wall_PlaceHolder_Control_Point_C_3260": {
+        "HolidaySellerNPC_BP_1016": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
             "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
@@ -14064,7 +14208,7 @@
             "TakeAnythingAsGround": false,
             "UseFenceFoundation": false
         },
-        "Wall_PlaceHolder_Control_Point_C_3261": {
+        "HolidaySellerNPC_BP_854": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
             "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
@@ -14080,7 +14224,7 @@
             "TakeAnythingAsGround": false,
             "UseFenceFoundation": false
         },
-        "Wall_PlaceHolder_Control_Point_C_3262": {
+        "SeedVendorNPC_BP_2": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
             "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
@@ -14096,7 +14240,7 @@
             "TakeAnythingAsGround": false,
             "UseFenceFoundation": false
         },
-        "Wall_PlaceHolder_Control_Point_C_3263": {
+        "SeedVendorNPC_BP_3": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
             "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
@@ -14112,7 +14256,7 @@
             "TakeAnythingAsGround": false,
             "UseFenceFoundation": false
         },
-        "Wall_PlaceHolder_Control_Point_C_38757": {
+        "SeedVendorNPC_BP_5": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
             "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
@@ -14128,80 +14272,48 @@
             "TakeAnythingAsGround": false,
             "UseFenceFoundation": false
         },
-        "Wall_PlaceHolder_Control_Point_C_42483": {
+        "ShipyardNPC_BP_301": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
             "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
-            "ForceGroundForFoundation": false,
-            "ForcePlacingOnGround": true,
+            "ForceGroundForFoundation": true,
+            "ForcePlacingOnGround": false,
             "FoundationRequiresGroundTrace": false,
             "IsFenceFoundation": false,
-            "IsFloor": false,
-            "IsFoundation": false,
+            "IsFloor": true,
+            "IsFoundation": true,
             "IsWall": false,
             "MaximumFoundationSupport2DBuildDistance": 650.0,
             "PreventPlacingNearEnemyRadius": 2000.0,
             "TakeAnythingAsGround": false,
             "UseFenceFoundation": false
         },
-        "Wall_PlaceHolder_Control_Point_C_52117": {
+        "ShipyardNPC_BP_4": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
             "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
-            "ForceGroundForFoundation": false,
-            "ForcePlacingOnGround": true,
+            "ForceGroundForFoundation": true,
+            "ForcePlacingOnGround": false,
             "FoundationRequiresGroundTrace": false,
             "IsFenceFoundation": false,
-            "IsFloor": false,
-            "IsFoundation": false,
+            "IsFloor": true,
+            "IsFoundation": true,
             "IsWall": false,
             "MaximumFoundationSupport2DBuildDistance": 650.0,
             "PreventPlacingNearEnemyRadius": 2000.0,
             "TakeAnythingAsGround": false,
             "UseFenceFoundation": false
         },
-        "Wall_PlaceHolder_Control_Point_C_57843": {
+        "ShipyardNPC_BP_C_1161": {
             "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
             "DecayTimeDays": 10.0,
             "DecayTimeNoFlagDays": 0.0833333358168602,
-            "ForceGroundForFoundation": false,
-            "ForcePlacingOnGround": true,
+            "ForceGroundForFoundation": true,
+            "ForcePlacingOnGround": false,
             "FoundationRequiresGroundTrace": false,
             "IsFenceFoundation": false,
-            "IsFloor": false,
-            "IsFoundation": false,
-            "IsWall": false,
-            "MaximumFoundationSupport2DBuildDistance": 650.0,
-            "PreventPlacingNearEnemyRadius": 2000.0,
-            "TakeAnythingAsGround": false,
-            "UseFenceFoundation": false
-        },
-        "Wall_PlaceHolder_Control_Point_C_63365": {
-            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 10.0,
-            "DecayTimeNoFlagDays": 0.0833333358168602,
-            "ForceGroundForFoundation": false,
-            "ForcePlacingOnGround": true,
-            "FoundationRequiresGroundTrace": false,
-            "IsFenceFoundation": false,
-            "IsFloor": false,
-            "IsFoundation": false,
-            "IsWall": false,
-            "MaximumFoundationSupport2DBuildDistance": 650.0,
-            "PreventPlacingNearEnemyRadius": 2000.0,
-            "TakeAnythingAsGround": false,
-            "UseFenceFoundation": false
-        },
-        "Wall_PlaceHolder_Control_Point_C_67613": {
-            "AdditionalFoundationSupportDistanceForLinkedStructures": 0.0,
-            "DecayTimeDays": 10.0,
-            "DecayTimeNoFlagDays": 0.0833333358168602,
-            "ForceGroundForFoundation": false,
-            "ForcePlacingOnGround": true,
-            "FoundationRequiresGroundTrace": false,
-            "IsFenceFoundation": false,
-            "IsFloor": false,
-            "IsFoundation": false,
+            "IsFloor": true,
+            "IsFoundation": true,
             "IsWall": false,
             "MaximumFoundationSupport2DBuildDistance": 650.0,
             "PreventPlacingNearEnemyRadius": 2000.0,
