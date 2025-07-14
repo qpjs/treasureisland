@@ -20,11 +20,6 @@
 		"name": "Drake"
 	},
 	{
-		"lat": 75,
-		"long": -75,
-		"name": "GentleWhale"
-	},
-	{
 		"lat": 83.66352844238281,
 		"long": -90.0024185180664,
 		"name": "Sentinel"
@@ -70,29 +65,9 @@
 		"name": "Kekeda"
 	},
 	{
-		"lat": 75,
-		"long": -25,
-		"name": "GentleWhale"
-	},
-	{
-		"lat": 75,
-		"long": -25,
-		"name": "MeanWhale"
-	},
-	{
 		"lat": 25,
 		"long": -25,
 		"name": "GiantSquid"
-	},
-	{
-		"lat": 75,
-		"long": 25,
-		"name": "GentleWhale"
-	},
-	{
-		"lat": 75,
-		"long": 25,
-		"name": "MeanWhale"
 	},
 	{
 		"lat": 40.08855056762695,
@@ -118,21 +93,6 @@
 		"lat": 17.114356994628906,
 		"long": 35.52228546142578,
 		"name": "Elder Rock Elemental"
-	},
-	{
-		"lat": -25,
-		"long": 25,
-		"name": "GiantSquid"
-	},
-	{
-		"lat": 75,
-		"long": 75,
-		"name": "GentleWhale"
-	},
-	{
-		"lat": 75,
-		"long": 75,
-		"name": "MeanWhale"
 	},
 	{
 		"lat": -13.916776657104492,

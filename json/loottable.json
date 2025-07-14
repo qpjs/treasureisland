@@ -5,8 +5,10 @@
         "DinoDropInventoryComponent_Carnivore_Huge_Mega_C": null,
         "DinoDropInventoryComponent_Carnivore_Huge_Yuty_C": null,
         "DinoDropInventoryComponent_Carnivore_Large_Boa_C": null,
+        "DinoDropInventoryComponent_Carnivore_Large_C": null,
         "DinoDropInventoryComponent_Carnivore_Large_Sarco_C": null,
         "DinoDropInventoryComponent_Carnivore_Medium_C": null,
+        "DinoDropInventoryComponent_Carnivore_Medium_Thylaco_C": null,
         "DinoDropInventoryComponent_Carnivore_Small_C": null,
         "DinoDropInventoryComponent_Carnivore_Small_Mermaid_C": null,
         "DinoDropInventoryComponent_Carnivore_Tusoteuthis_C": [
@@ -226,6 +228,38 @@
                 "Weight": 1.0
             }
         ],
+        "DinoDropInventoryComponent_Mythical_Cyclops_TO_C": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Mythos"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Cyclops Eye"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
         "DinoDropInventoryComponent_Mythical_Dragon_C": [
             {
                 "ChanceForBlueprint": 0.0,
@@ -267,6 +301,38 @@
                 "ForceBlueprint": 0,
                 "Items": [
                     "Mythos"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
+        "DinoDropInventoryComponent_Mythical_Gorgon_TO_C": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Mythos"
+                ],
+                "MaxQuality": 1.0,
+                "MaxQuantity": 1.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 1.0,
+                "QualityPower": 1.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Gorgon Hair"
                 ],
                 "MaxQuality": 1.0,
                 "MaxQuantity": 1.0,
@@ -951,6 +1017,44 @@
                 "Weight": 1.0
             }
         ],
+        "ISA_DinoDropInventoryComponent_Basilo_C": null,
+        "ISA_DinoDropInventoryComponent_Carnivore_Large_Hyena_C": null,
+        "ISA_DinoDropInventoryComponent_Carnivore_Medium_Sabertooth_C": null,
+        "ISA_DinoDropInventoryComponent_Carnivore_Small_Alligator_C": null,
+        "ISA_LootItemSet_BeaverDam_C": [
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Mythos"
+                ],
+                "MaxQuality": 0.0,
+                "MaxQuantity": 10.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 2.0,
+                "QualityPower": 0.0,
+                "QuantityPower": 0.0,
+                "Weight": 1.0
+            },
+            {
+                "ChanceForBlueprint": 0.0,
+                "ChanceForItem": 1.0,
+                "ForceBlueprint": 0,
+                "Items": [
+                    "Organic Paste"
+                ],
+                "MaxQuality": 0.0,
+                "MaxQuantity": 500.0,
+                "MinQuality": 0.0,
+                "MinQuantity": 100.0,
+                "QualityPower": 0.0,
+                "QuantityPower": 1.0,
+                "Weight": 1.0
+            }
+        ],
+        "ISA_PrimalInventoryBP_BeaverDam_C": null,
+        "ISA_PrimalInventoryBP_BeaverDam_C_0": null,
         "LootItemSet_BaseMeatFishing_C": [
             {
                 "ChanceForBlueprint": 0.5,
@@ -971,6 +1075,7 @@
                 "Weight": 1.0
             }
         ],
+        "LootItemSet_BeaverDam_C": null,
         "LootItemSet_CaveDrop_T1_Armor_C": null,
         "LootItemSet_Encampment_Consumables_C": [
             {
@@ -2742,7 +2847,10 @@
                 "Weight": 1.0
             }
         ],
+        "LootItemSet_Weapons_C": null,
         "PrimalInventoryBP_BaseMeatFishing_C": null,
+        "PrimalInventoryBP_BeaverDam_C": null,
+        "PrimalInventoryBP_BeaverDam_C_0": null,
         "PrimalInventoryBP_Encampment_Consumables_C": null,
         "PrimalInventoryBP_Encampment_Usables_C": null,
         "PrimalInventoryBP_GenericFishing_C": null,

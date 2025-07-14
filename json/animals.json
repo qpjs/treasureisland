@@ -735,7 +735,7 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
-            "className": "Bat_Character_BP_C",
+            "className": "CaveBat_Character_BP_C",
             "deathInventoryChance": 0.30000001192092896,
             "food": [
                 {
@@ -779,6 +779,120 @@
                     "foodEffectivenessMultiplier": 5.0,
                     "name": "Marrow",
                     "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 50.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 37.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 25.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 62.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 12.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Earthworms",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 100.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 87.5,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 75.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
                 }
             ],
             "foodPreference": "Carnivore",
@@ -788,9 +902,152 @@
             "requiredAffinityPerBaseLevel": 90.0,
             "resources": [
                 "Pelt",
+                "Animal Meat",
+                "Pelt",
                 "Animal Meat"
             ],
             "tameConsumeInterval": 14.0
+        },
+        "Bat TO": {
+            "XP": 3.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "breedingBiomes": [
+                "Equatorial"
+            ],
+            "canBeTamed": true,
+            "className": "CaveBat_Character_BP_TO_C",
+            "deathInventoryChance": 0.30000001192092896,
+            "food": [
+                {
+                    "affinityOverride": 50.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 37.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 25.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 62.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 12.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Earthworms",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 100.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 87.5,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 75.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Carnivore",
+            "maxTemperatureToBreed": 45.0,
+            "minTemperatureToBreed": 20.0,
+            "requiredAffinity": 1800.0,
+            "requiredAffinityPerBaseLevel": 90.0,
+            "resources": [
+                "Pelt",
+                "Animal Meat"
+            ],
+            "tameConsumeInterval": 20.0
         },
         "Bear": {
             "XP": 4.0,
@@ -1108,6 +1365,90 @@
                 "Pelt"
             ],
             "tameConsumeInterval": 21.0
+        },
+        "Beaver": {
+            "XP": 4.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "Beaver_Character_BP_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acai",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Acerola",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Arctic Raspberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Bilberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Blackberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Elderberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Lingonberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Schisandra",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Sea Grapes",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Strawberry",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 2000.0,
+            "requiredAffinityPerBaseLevel": 100.0,
+            "resources": [
+                "Fur",
+                "Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
         },
         "Bee": {
             "XP": 0.25,
@@ -2123,8 +2464,8 @@
             ],
             "tameConsumeInterval": 15.0
         },
-        "CaveBat": {
-            "XP": 3.0,
+        "Chalico": {
+            "XP": 6.0,
             "XPperHit": true,
             "affinityDecreaseSpeed": 0.007499999832361937,
             "babyGestationMultiplier": 1.0,
@@ -2132,134 +2473,87 @@
             "babyTripletsChance": 0.019999999552965164,
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": false,
-            "className": "CaveBat_Character_BP_C",
-            "deathInventoryChance": 0.30000001192092896,
+            "className": "Chalico_Character_BP_C",
+            "deathInventoryChance": 0.0,
             "food": [
                 {
-                    "affinityOverride": 50.0,
-                    "foodEffectivenessMultiplier": 2.5,
-                    "name": "Animal Meat",
-                    "weight": 0.07000000029802322
-                },
-                {
-                    "affinityOverride": 37.5,
-                    "foodEffectivenessMultiplier": 2.5,
-                    "name": "Fish Meat",
-                    "weight": 0.07000000029802322
-                },
-                {
-                    "affinityOverride": 25.0,
-                    "foodEffectivenessMultiplier": 2.5,
-                    "name": "Crustacean Meat",
-                    "weight": 0.07000000029802322
-                },
-                {
-                    "affinityOverride": 62.5,
-                    "foodEffectivenessMultiplier": 2.5,
-                    "name": "Human Meat",
-                    "weight": 0.07000000029802322
-                },
-                {
-                    "affinityOverride": 12.5,
-                    "foodEffectivenessMultiplier": 2.5,
-                    "name": "Earthworms",
-                    "weight": 0.07000000029802322
-                },
-                {
-                    "affinityOverride": 100.0,
-                    "foodEffectivenessMultiplier": 5.0,
-                    "name": "Marrow",
-                    "weight": 0.07000000029802322
-                },
-                {
-                    "affinityOverride": 87.5,
-                    "foodEffectivenessMultiplier": 5.0,
-                    "name": "Prime Animal Meat",
-                    "weight": 0.07000000029802322
-                },
-                {
-                    "affinityOverride": 75.0,
-                    "foodEffectivenessMultiplier": 5.0,
-                    "name": "Prime Fish Meat",
+                    "affinityOverride": 100000.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Super Test Meat",
                     "weight": 0.07000000029802322
                 },
                 {
                     "affinityOverride": 0.0,
-                    "foodEffectivenessMultiplier": 2.5,
-                    "name": "Cooked Meat",
+                    "foodEffectivenessMultiplier": 6.0,
+                    "name": "Base Egg Kibble",
                     "weight": 0.07000000029802322
                 },
                 {
                     "affinityOverride": 0.0,
-                    "foodEffectivenessMultiplier": 2.5,
-                    "name": "Cooked Fish",
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Amarberry",
                     "weight": 0.07000000029802322
                 },
                 {
                     "affinityOverride": 0.0,
-                    "foodEffectivenessMultiplier": 2.5,
-                    "name": "Crustacean Meat",
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Azulberry",
                     "weight": 0.07000000029802322
                 },
                 {
                     "affinityOverride": 0.0,
-                    "foodEffectivenessMultiplier": 2.5,
-                    "name": "Human Meat",
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Tintoberry",
                     "weight": 0.07000000029802322
                 },
                 {
                     "affinityOverride": 0.0,
-                    "foodEffectivenessMultiplier": 2.5,
-                    "name": "Marrow",
+                    "foodEffectivenessMultiplier": -10.0,
+                    "name": "Stimberry",
                     "weight": 0.07000000029802322
                 },
                 {
                     "affinityOverride": 0.0,
-                    "foodEffectivenessMultiplier": 2.5,
-                    "name": "Cooked Prime Animal Meat",
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Mejoberry",
                     "weight": 0.07000000029802322
                 },
                 {
                     "affinityOverride": 0.0,
-                    "foodEffectivenessMultiplier": 2.5,
-                    "name": "Cooked Prime Fish Meat",
+                    "foodEffectivenessMultiplier": 2.0,
+                    "name": "Base Veggie",
                     "weight": 0.07000000029802322
                 },
                 {
                     "affinityOverride": 0.0,
-                    "foodEffectivenessMultiplier": 2.5,
-                    "name": "Salted Meat",
+                    "foodEffectivenessMultiplier": 6.0,
+                    "name": "Base Egg Kibble",
                     "weight": 0.07000000029802322
                 },
                 {
                     "affinityOverride": 0.0,
-                    "foodEffectivenessMultiplier": 2.5,
-                    "name": "Salted Fish",
-                    "weight": 0.07000000029802322
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Sweet Vegetable Cake",
+                    "weight": 4.199999809265137
                 },
                 {
-                    "affinityOverride": 0.0,
-                    "foodEffectivenessMultiplier": 2.5,
-                    "name": "Salted Prime Meat",
-                    "weight": 0.07000000029802322
-                },
-                {
-                    "affinityOverride": 0.0,
-                    "foodEffectivenessMultiplier": 2.5,
-                    "name": "Salted Prime Fish",
-                    "weight": 0.07000000029802322
+                    "affinityOverride": 400.0,
+                    "foodEffectivenessMultiplier": 45.0,
+                    "name": "Beer Jar",
+                    "weight": 4.199999809265137
                 }
             ],
-            "foodPreference": "Carnivore",
+            "foodPreference": "Herbivore",
             "maxTemperatureToBreed": 0.0,
             "minTemperatureToBreed": 0.0,
-            "requiredAffinity": 3000.0,
-            "requiredAffinityPerBaseLevel": 90.0,
+            "requiredAffinity": 5000.0,
+            "requiredAffinityPerBaseLevel": 275.0,
             "resources": [
-                "Pelt",
-                "Animal Meat"
+                "Leather",
+                "Earthworms",
+                "Prime Animal Meat"
             ],
-            "tameConsumeInterval": 14.0
+            "tameConsumeInterval": 15.0
         },
         "Chicken": {
             "XP": 0.30000001192092896,
@@ -2627,6 +2921,156 @@
             ],
             "tameConsumeInterval": 15.0
         },
+        "Cobra TO": {
+            "XP": 5.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "breedingBiomes": [
+                "WesternTropics",
+                "EasternTemperate",
+                "WesternTemperate",
+                "Equatorial",
+                "HighDesert",
+                "LowDesert",
+                "EasternTundra",
+                "WesternTundra",
+                "CentralTundra"
+            ],
+            "canBeTamed": true,
+            "className": "GiantSnake_Character_BP_TO_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 50.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 37.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 25.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 62.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 12.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Earthworms",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 100.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 87.5,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 75.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Carnivore",
+            "maxTemperatureToBreed": 45.0,
+            "minTemperatureToBreed": 20.0,
+            "requiredAffinity": 1800.0,
+            "requiredAffinityPerBaseLevel": 90.0,
+            "resources": [
+                "Scale",
+                "Animal Meat",
+                "Venom"
+            ],
+            "tameConsumeInterval": 20.0
+        },
         "Cod": {
             "XP": 0.5,
             "XPperHit": true,
@@ -2943,6 +3387,163 @@
             "foodPreference": "Carrion",
             "maxTemperatureToBreed": 0.0,
             "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 4250.0,
+            "requiredAffinityPerBaseLevel": 212.5,
+            "resources": [
+                "Leather",
+                "Crustacean Meat",
+                "Carapace"
+            ],
+            "tameConsumeInterval": 22.0
+        },
+        "Crab TO": {
+            "XP": 6.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": true,
+            "className": "AtlasCrab_Character_BP_TO_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 40.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 75.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Rotten Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 87.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Earthworms",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 37.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 25.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 62.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 100.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 63.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 55.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 87.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Innards",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Carrion",
+            "maxTemperatureToBreed": 55.0,
+            "minTemperatureToBreed": 25.0,
             "requiredAffinity": 4250.0,
             "requiredAffinityPerBaseLevel": 212.5,
             "resources": [
@@ -3313,6 +3914,145 @@
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
             "className": "Cyclops_Character_BP_C",
+            "deathInventoryChance": 1.0,
+            "food": [
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Earthworms",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Carnivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 10000.0,
+            "requiredAffinityPerBaseLevel": 5.0,
+            "resources": [
+                "Leather",
+                "Animal Meat",
+                "Prime Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "Cyclops TO": {
+            "XP": 1000.0,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.2000000476837158,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": true,
+            "className": "Cyclops_Character_BP_TO_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -3991,6 +4731,146 @@
             ],
             "tameConsumeInterval": 15.0
         },
+        "Draco TO": {
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": true,
+            "className": "Draco_Character_BP_TO_C",
+            "deathInventoryChance": 1.0,
+            "food": [
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Earthworms",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Carnivore",
+            "maxTemperatureToBreed": 60.0,
+            "minTemperatureToBreed": 52.0,
+            "requiredAffinity": 6850.0,
+            "requiredAffinityPerBaseLevel": 300.0,
+            "resources": [
+                "Scale",
+                "Animal Meat",
+                "Prime Animal Meat",
+                "Bone",
+                "Sulfur"
+            ],
+            "tameConsumeInterval": 15.0
+        },
         "Eel": {
             "XP": 8.0,
             "XPperHit": true,
@@ -4371,6 +5251,51 @@
             "babyTwinsChance": 0.10000000149011612,
             "canBeTamed": true,
             "className": "FireElemental_Character_BP_C",
+            "deathInventoryChance": 1.0,
+            "food": [
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Thatch",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 10.0,
+                    "name": "Wood",
+                    "weight": 0.21000000834465027
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 50.0,
+                    "name": "Oil",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 6500.0,
+            "requiredAffinityPerBaseLevel": 325.0,
+            "resources": [
+                "Gem",
+                "Stone",
+                "Flint",
+                "Oil",
+                "Coal"
+            ],
+            "tameConsumeInterval": 14.0
+        },
+        "FireElemental TO": {
+            "XP": 1000.0,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": true,
+            "className": "FireElemental_Character_BP_TO_C",
             "deathInventoryChance": 1.0,
             "food": [
                 {
@@ -4988,6 +5913,146 @@
                 "Prime Animal Meat"
             ],
             "tameConsumeInterval": 15.0
+        },
+        "Gorgon TO": {
+            "XP": 30.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": true,
+            "className": "Gorgon_Character_BP_TO_C",
+            "deathInventoryChance": 1.0,
+            "food": [
+                {
+                    "affinityOverride": 50.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 37.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 25.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 62.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 12.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Earthworms",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 100.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 87.5,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 75.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Carnivore",
+            "maxTemperatureToBreed": 45.0,
+            "minTemperatureToBreed": 30.0,
+            "requiredAffinity": 5200.0,
+            "requiredAffinityPerBaseLevel": 250.0,
+            "resources": [
+                "Scale",
+                "Animal Meat",
+                "Leather",
+                "Prime Animal Meat"
+            ],
+            "tameConsumeInterval": 28.0
         },
         "Grand Tortugar": {
             "XP": 2.0,
@@ -7583,6 +8648,72 @@
             "requiredAffinityPerBaseLevel": 75.0,
             "tameConsumeInterval": 15.0
         },
+        "Hyaenodon": {
+            "XP": 18.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 2.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "Hyaenodon_Character_BP_C",
+            "deathInventoryChance": 0.30000001192092896,
+            "food": [
+                {
+                    "affinityOverride": 50.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 50.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 50.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 50.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 100.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 100.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 100.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Carnivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 6000.0,
+            "requiredAffinityPerBaseLevel": 80.0,
+            "resources": [
+                "Fur",
+                "Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
+        },
         "Hydra": {
             "XPperHit": false,
             "affinityDecreaseSpeed": 0.007499999832361937,
@@ -7720,6 +8851,1129 @@
                 "Animal Meat",
                 "Marrow",
                 "Bone"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "ISA Alligator": {
+            "XP": 5.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": true,
+            "className": "ISA_Alligator_Character_BP_C",
+            "deathInventoryChance": 0.30000001192092896,
+            "food": [
+                {
+                    "affinityOverride": 15.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 22.5,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 7.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 7.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 7.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Earthworms",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 7.0,
+                    "foodEffectivenessMultiplier": 50.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 26.0,
+                    "foodEffectivenessMultiplier": 50.0,
+                    "name": "Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 30.0,
+                    "foodEffectivenessMultiplier": 50.0,
+                    "name": "Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Carnivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 2000.0,
+            "requiredAffinityPerBaseLevel": 100.0,
+            "resources": [
+                "Scale",
+                "Animal Meat",
+                "Leather"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "ISA Basilosaurus": {
+            "XP": 15.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 2.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": true,
+            "className": "ISA_Basilosaurus_Character_BP_C",
+            "deathInventoryChance": 1.0,
+            "food": [
+                {
+                    "affinityOverride": 150.0,
+                    "foodEffectivenessMultiplier": 75.0,
+                    "name": "Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 100.0,
+                    "foodEffectivenessMultiplier": 50.0,
+                    "name": "Fish Meat",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Carnivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 6600.0,
+            "requiredAffinityPerBaseLevel": 250.0,
+            "resources": [
+                "Blubber",
+                "Prime Fish Meat",
+                "Skin"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "ISA Beaver": {
+            "XP": 4.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 2.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": true,
+            "className": "ISA_Beaver_Character_BP_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 25.0,
+                    "name": "Medicinal Herb",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 30.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Berry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Fruit",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 25.0,
+                    "name": "Cooking Herbs",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 2000.0,
+            "requiredAffinityPerBaseLevel": 100.0,
+            "resources": [
+                "Pelt",
+                "Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "ISA Hyena": {
+            "XP": 18.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.004999999888241291,
+            "babyGestationMultiplier": 2.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": true,
+            "className": "ISA_Hyena_Character_BP_C",
+            "deathInventoryChance": 0.30000001192092896,
+            "food": [
+                {
+                    "affinityOverride": 50.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 37.5,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 25.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 62.5,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 12.5,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Earthworms",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 100.0,
+                    "foodEffectivenessMultiplier": 50.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 87.5,
+                    "foodEffectivenessMultiplier": 50.0,
+                    "name": "Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 75.0,
+                    "foodEffectivenessMultiplier": 50.0,
+                    "name": "Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Carnivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 6000.0,
+            "requiredAffinityPerBaseLevel": 80.0,
+            "resources": [
+                "Fur",
+                "Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "ISA Kangaroo": {
+            "XP": 2.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 2.0,
+            "babyGestationSpeed": 3.5000000934815034e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": true,
+            "className": "ISA_Kangaroo_Character_BP_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 25.0,
+                    "name": "Medicinal Herb",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 30.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Berry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 30.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Fruit",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 45.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 25.0,
+                    "name": "Cooking Herbs",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 3000.0,
+            "requiredAffinityPerBaseLevel": 150.0,
+            "resources": [
+                "Animal Meat",
+                "Pelt"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "ISA Purlovia": {
+            "XP": 6.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.899999976158142,
+            "babyGestationSpeed": 3.5000000934815034e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": true,
+            "className": "ISA_Purlovia_Character_BP_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 15.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 10.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 7.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 18.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 7.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Earthworms",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 30.0,
+                    "foodEffectivenessMultiplier": 50.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 26.0,
+                    "foodEffectivenessMultiplier": 50.0,
+                    "name": "Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 22.0,
+                    "foodEffectivenessMultiplier": 50.0,
+                    "name": "Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Carnivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 2000.0,
+            "requiredAffinityPerBaseLevel": 100.0,
+            "resources": [
+                "Fur",
+                "Earthworms",
+                "Prime Animal Meat",
+                "Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "ISA Sabertooth": {
+            "XP": 5.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.899999976158142,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": true,
+            "className": "ISA_Sabertooth_Character_BP_C",
+            "deathInventoryChance": 0.30000001192092896,
+            "food": [
+                {
+                    "affinityOverride": 15.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 10.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 7.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 18.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 7.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Earthworms",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 30.0,
+                    "foodEffectivenessMultiplier": 50.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 26.0,
+                    "foodEffectivenessMultiplier": 50.0,
+                    "name": "Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 22.0,
+                    "foodEffectivenessMultiplier": 50.0,
+                    "name": "Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Carnivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 2000.0,
+            "requiredAffinityPerBaseLevel": 100.0,
+            "resources": [
+                "Fur",
+                "Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "ISA Sloth": {
+            "XP": 4.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 2.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": true,
+            "className": "ISA_Sloth_Character_BP_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 25.0,
+                    "name": "Medicinal Herb",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 30.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Berry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Fruit",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 25.0,
+                    "name": "Cooking Herbs",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Carnivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 2000.0,
+            "requiredAffinityPerBaseLevel": 100.0,
+            "resources": [
+                "Leather",
+                "Animal Meat",
+                "Pelt"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "ISA Thylacoleo": {
+            "XP": 5.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.899999976158142,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": true,
+            "className": "ISA_Thylacoleo_Character_BP_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 50.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 37.5,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 25.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 62.5,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 12.5,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Earthworms",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 100.0,
+                    "foodEffectivenessMultiplier": 50.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 87.5,
+                    "foodEffectivenessMultiplier": 50.0,
+                    "name": "Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 75.0,
+                    "foodEffectivenessMultiplier": 50.0,
+                    "name": "Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Carnivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 2250.0,
+            "requiredAffinityPerBaseLevel": 60.0,
+            "resources": [
+                "Fur",
+                "Animal Meat",
+                "Prime Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "ISA Toad": {
+            "XP": 2.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": true,
+            "className": "ISA_Toad_Character_BP_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 15.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 10.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 7.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 18.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 7.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Earthworms",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 30.0,
+                    "foodEffectivenessMultiplier": 50.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 26.0,
+                    "foodEffectivenessMultiplier": 50.0,
+                    "name": "Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 22.0,
+                    "foodEffectivenessMultiplier": 50.0,
+                    "name": "Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 20.0,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Carnivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 2000.0,
+            "requiredAffinityPerBaseLevel": 100.0,
+            "resources": [
+                "Skin",
+                "Animal Meat"
+            ],
+            "tameConsumeInterval": 15.0
+        },
+        "ISA Workhorse": {
+            "XP": 6.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 2.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": true,
+            "className": "ISA_Workhorse_Character_BP_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 25.0,
+                    "name": "Medicinal Herb",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 30.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Berry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Fruit",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 25.0,
+                    "name": "Cooking Herbs",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 80.0,
+                    "foodEffectivenessMultiplier": 25.0,
+                    "name": "Ale",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 100.0,
+                    "foodEffectivenessMultiplier": 25.0,
+                    "name": "Grog",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 5000.0,
+            "requiredAffinityPerBaseLevel": 275.0,
+            "resources": [
+                "Fur",
+                "Animal Meat",
+                "Hair"
             ],
             "tameConsumeInterval": 15.0
         },
@@ -8497,6 +10751,158 @@
                 "Prime Animal Meat"
             ],
             "tameConsumeInterval": 15.0
+        },
+        "Leatherwing TO": {
+            "XP": 3.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "breedingBiomes": [
+                "EasternTropics",
+                "WesternTropics",
+                "EasternTemperate",
+                "WesternTemperate",
+                "EasternTundra",
+                "WesternTundra",
+                "CentralTundra",
+                "Equatorial",
+                "HighDesert",
+                "LowDesert"
+            ],
+            "canBeTamed": true,
+            "className": "Leatherwing_Character_BP_TO_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 50.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 37.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 25.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 62.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 12.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Earthworms",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 100.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 87.5,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 75.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Carnivore",
+            "maxTemperatureToBreed": 45.0,
+            "minTemperatureToBreed": 20.0,
+            "requiredAffinity": 5200.0,
+            "requiredAffinityPerBaseLevel": 250.0,
+            "resources": [
+                "Scale",
+                "Animal Meat",
+                "Leather",
+                "Prime Animal Meat"
+            ],
+            "tameConsumeInterval": 28.0
         },
         "Lion": {
             "XP": 9.0,
@@ -10707,6 +13113,154 @@
             ],
             "tameConsumeInterval": 15.0
         },
+        "Rattlesnake TO": {
+            "XP": 6.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "breedingBiomes": [
+                "EasternTropics",
+                "WesternTropics",
+                "EasternTemperate",
+                "WesternTemperate",
+                "Equatorial",
+                "HighDesert",
+                "LowDesert"
+            ],
+            "canBeTamed": true,
+            "className": "Rattlesnake_Character_BP_TO_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 50.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 37.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 25.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 62.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 12.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Earthworms",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 100.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 87.5,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 75.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Carnivore",
+            "maxTemperatureToBreed": 45.0,
+            "minTemperatureToBreed": 20.0,
+            "requiredAffinity": 1800.0,
+            "requiredAffinityPerBaseLevel": 90.0,
+            "resources": [
+                "Scale",
+                "Animal Meat",
+                "Venom"
+            ],
+            "tameConsumeInterval": 20.0
+        },
         "Razortooth": {
             "XP": 30.0,
             "XPperHit": true,
@@ -10997,6 +13551,45 @@
             ],
             "tameConsumeInterval": 14.0
         },
+        "RockElemental TO": {
+            "XP": 1000.0,
+            "XPperHit": false,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": true,
+            "className": "RockElemental_Character_BP_TO_C",
+            "deathInventoryChance": 1.0,
+            "food": [
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 10.0,
+                    "name": "Flint",
+                    "weight": 0.08399999886751175
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 50.0,
+                    "name": "Stone",
+                    "weight": 0.3499999940395355
+                }
+            ],
+            "foodPreference": "",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 6500.0,
+            "requiredAffinityPerBaseLevel": 325.0,
+            "resources": [
+                "Crystal",
+                "Stone",
+                "Flint",
+                "Oil",
+                "Metal"
+            ],
+            "tameConsumeInterval": 14.0
+        },
         "RockGolem": {
             "XP": 50.0,
             "XPperHit": true,
@@ -11250,6 +13843,164 @@
                 "Venom"
             ],
             "tameConsumeInterval": 15.0
+        },
+        "Scorpion TO": {
+            "XP": 2.5,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "breedingBiomes": [
+                "EasternTropics",
+                "Equatorial",
+                "HighDesert",
+                "LowDesert"
+            ],
+            "canBeTamed": true,
+            "className": "GiantScorpion_Character_BP_TO_C",
+            "deathInventoryChance": 0.30000001192092896,
+            "food": [
+                {
+                    "affinityOverride": 40.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 75.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Rotten Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 87.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Earthworms",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 37.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 25.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 62.5,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 100.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 63.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 55.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Carrion",
+            "maxTemperatureToBreed": 45.0,
+            "minTemperatureToBreed": 27.0,
+            "requiredAffinity": 1500.0,
+            "requiredAffinityPerBaseLevel": 75.0,
+            "resources": [
+                "Carapace",
+                "Insect Meat",
+                "Organic Paste",
+                "Venom"
+            ],
+            "tameConsumeInterval": 20.0
         },
         "Seagull": {
             "XP": 1.5,
@@ -11718,6 +14469,158 @@
                 "Prime Shark Meat"
             ],
             "tameConsumeInterval": 15.0
+        },
+        "Shark TO": {
+            "XP": 12.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.763700008392334,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": true,
+            "className": "Shark_Character_BP_TO_C",
+            "deathInventoryChance": 1.0,
+            "food": [
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 43.75,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 87.5,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Earthworms",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 65.625,
+                    "foodEffectivenessMultiplier": 25.0,
+                    "name": "Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 25.0,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 87.5,
+                    "foodEffectivenessMultiplier": 30.0,
+                    "name": "Squid Tentacle",
+                    "weight": 0.17000000178813934
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Dried Tentacle",
+                    "weight": 0.08500000089406967
+                }
+            ],
+            "foodPreference": "Carnivore",
+            "maxTemperatureToBreed": 1000.0,
+            "minTemperatureToBreed": -1000.0,
+            "requiredAffinity": 4250.0,
+            "requiredAffinityPerBaseLevel": 212.5,
+            "resources": [
+                "Fish Meat",
+                "Fish Oil",
+                "Skin",
+                "Prime Shark Meat"
+            ],
+            "tameConsumeInterval": 22.0
         },
         "Sheep": {
             "XP": 1.0,
@@ -12667,6 +15570,97 @@
             ],
             "tameConsumeInterval": 15.0
         },
+        "Thylacoleo": {
+            "XP": 5.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.899999976158142,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "canBeTamed": false,
+            "className": "Thylacoleo_Character_BP_C",
+            "deathInventoryChance": 1.0,
+            "food": [
+                {
+                    "affinityOverride": 100000.0,
+                    "foodEffectivenessMultiplier": 1.0,
+                    "name": "Super Test Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 6.0,
+                    "name": "Base Egg Kibble",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Amarberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Azulberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Mejoberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Narcoberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Tintoberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": -10.0,
+                    "name": "Stimberry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Base Veggie",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 1.0,
+                    "foodEffectivenessMultiplier": 6.0,
+                    "name": "Base Egg Kibble",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 0.0,
+                    "name": "Sweet Vegetable Cake",
+                    "weight": 4.199999809265137
+                }
+            ],
+            "foodPreference": "Carnivore",
+            "maxTemperatureToBreed": 0.0,
+            "minTemperatureToBreed": 0.0,
+            "requiredAffinity": 2250.0,
+            "requiredAffinityPerBaseLevel": 60.0,
+            "resources": [
+                "Skin",
+                "Animal Meat",
+                "Bone"
+            ],
+            "tameConsumeInterval": 15.0
+        },
         "Tiger": {
             "XP": 8.0,
             "XPperHit": true,
@@ -13159,6 +16153,76 @@
                 "Turtle Shell"
             ],
             "tameConsumeInterval": 60.0
+        },
+        "Turtle TO": {
+            "XP": 2.5,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.0,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "breedingBiomes": [
+                "EasternTropics",
+                "WesternTropics",
+                "EasternTemperate",
+                "WesternTemperate",
+                "Equatorial",
+                "HighDesert",
+                "LowDesert"
+            ],
+            "canBeTamed": true,
+            "className": "GiantTurtle_Character_BP_TO_C",
+            "deathInventoryChance": 0.0,
+            "food": [
+                {
+                    "affinityOverride": 27.5,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Chick Peas",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 20.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Wild Chick Peas",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 10.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Berry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 12.5,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 15.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Fruit",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 22.5,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                }
+            ],
+            "foodPreference": "Herbivore",
+            "maxTemperatureToBreed": 40.0,
+            "minTemperatureToBreed": 15.0,
+            "requiredAffinity": 500.0,
+            "requiredAffinityPerBaseLevel": 25.0,
+            "resources": [
+                "Leather",
+                "Animal Meat",
+                "Turtle Shell"
+            ],
+            "tameConsumeInterval": 15.0
         },
         "TurtleShip": {
             "XP": 2.6659998893737793,
@@ -13657,6 +16721,181 @@
                 "Prime Animal Meat"
             ],
             "tameConsumeInterval": 14.0
+        },
+        "Yeti TO": {
+            "XP": 10.0,
+            "XPperHit": true,
+            "affinityDecreaseSpeed": 0.007499999832361937,
+            "babyGestationMultiplier": 1.5872999429702759,
+            "babyGestationSpeed": 3.4722223062999547e-05,
+            "babyTripletsChance": 0.019999999552965164,
+            "babyTwinsChance": 0.10000000149011612,
+            "breedingBiomes": [
+                "Polar",
+                "WesternTundra",
+                "EasternTundra",
+                "CentralTundra"
+            ],
+            "canBeTamed": true,
+            "className": "Yeti_Character_BP_TO_C",
+            "deathInventoryChance": 1.0,
+            "food": [
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Earthworms",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 5.0,
+                    "name": "Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Crustacean Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Human Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Marrow",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Prime Animal Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Cooked Prime Fish Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Prime Meat",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 0.0,
+                    "foodEffectivenessMultiplier": 2.5,
+                    "name": "Salted Prime Fish",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 10.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Berry",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 12.5,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 15.0,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Fruit",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 22.5,
+                    "foodEffectivenessMultiplier": 13.333333015441895,
+                    "name": "Vegetable",
+                    "weight": 0.07000000029802322
+                },
+                {
+                    "affinityOverride": 27.5,
+                    "foodEffectivenessMultiplier": 25.0,
+                    "name": "Syrup",
+                    "weight": 0.14000000059604645
+                }
+            ],
+            "foodPreference": "Omnivore",
+            "maxTemperatureToBreed": 20.0,
+            "minTemperatureToBreed": -14.0,
+            "requiredAffinity": 1300.0,
+            "requiredAffinityPerBaseLevel": 65.0,
+            "resources": [
+                "Fur",
+                "Animal Meat",
+                "Prime Animal Meat"
+            ],
+            "tameConsumeInterval": 21.0
         },
         "Yutyrannus": {
             "XP": 30.0,
